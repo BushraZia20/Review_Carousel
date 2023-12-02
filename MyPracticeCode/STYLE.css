@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main_div{
+    background-color:#ede7e2;
+    height: 100vh;
+}
+.heading{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 12px;
+}
+.line{
+    background-color: rgb(64 134 220);
+    height: 5px;
+    width: 8em;
+    position: relative;
+    left: 44em;
+    top: 1em;
+}
+.sec_div{
+    height: 79%;
+    width: 58%;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top: 3em;
+    left: 20em;
+    box-shadow: -1px 1px 12px 1px;
+}
+.image_div{
+    height: 175px;
+    width: 179px;
+    border-radius: 50%;
+    position: relative;
+    left: 42%;
+    top: 2em;
+    box-shadow: 0px 1px;
+    background-color: blue;
+    box-shadow: 8px -6px 2px 1px rgb(64 134 220);
+}
+#img_Element{
+    height: 175px;
+    width: 179px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 0%;
+    top: 0em;
+}
+.review_div{
+    position: relative;
+    top: 3em;
+    text-align: center;
+}
+.name_Element{
+    position: relative;
+    font-size: 40px;
+}
+.profession_Element{
+    position: relative;
+    top: 8px;
+    font-size: 20px;
+    color: rgb(64 134 220);
+}
+.review_Element{
+    position: relative;
+    top: 1.4em;
+    font-size: 20px;
+}
+.prev_Next_button_div{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    position: relative;
+    top: 2em;
+    font-size: 20px;
+    color: rgb(64 134 220);
+}
+.surpriseMe{
+    position: relative;
+    top: 4em;
+    height: 30px;
+    border: 2px solid rgb(64 134 220);
+    border-radius: 4px;
+    padding-top: 2px;
+    color: rgb(64 134 220);
+    padding-left: 4px;
+    padding-right: 4px;
+}
